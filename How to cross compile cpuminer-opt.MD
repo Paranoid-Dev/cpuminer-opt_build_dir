@@ -8,5 +8,7 @@ sudo apt install libtool
 
 ...
 
+download libstdc++-6.dll
+
 ./build.sh
 ```
