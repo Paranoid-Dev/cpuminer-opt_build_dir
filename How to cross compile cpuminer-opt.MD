@@ -9,6 +9,9 @@ sudo apt install libtool
 ...
 
 download libstdc++-6.dll
+download libgcc_s_seh-1.dll
+
+...
 
 ./build.sh
 ```
