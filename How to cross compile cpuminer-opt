@@ -1,0 +1,22 @@
+```
+sudo apt-get install build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git
+git clone https://github.com/JayDDee/cpuminer-opt.git
+sudo apt-get install mingw-w64 libz-mingw-w64-dev
+sudo apt install libtool
+<compile openssl>
+./Configure mingw64 shared --cross-compile-prefix=x86_64-w64-mingw32-
+make
+<compile curl>
+wget http://curl.haxx.se/download/curl-7.44.0.tar.lzma
+tar xf curl-7.44.0.tar.lzma
+./configure --with-winssl --with-winidn --host=x86_64-w64-mingw32
+make
+<compile gmp>
+./configure --host=x86_64-w64-mingw32
+make
+
+configure local paths
+
+./build.sh
+
+```
