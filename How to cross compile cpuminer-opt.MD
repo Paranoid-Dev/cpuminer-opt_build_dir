@@ -13,5 +13,10 @@ download libgcc_s_seh-1.dll
 
 ...
 
+cd /cpuminer-opt
+ln -s $LOCAL_LIB/gmp/gmp.h ./gmp.h
+
+...
+
 ./build.sh
 ```
