@@ -4,7 +4,7 @@ sudo apt install libtool
 ...
 
 <compile curl>
-./buildconfig
+./buildconf
 
 ...
 
