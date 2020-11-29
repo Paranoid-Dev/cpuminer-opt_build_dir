@@ -1,38 +1,3 @@
-cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
-imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
-Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional
-optimizations by Jay D Dee.
-
-All of the code is believed to be open and free. If anyone has a
-claim to any of it post your case in the cpuminer-opt Bitcoin Talk forum
-or by email.
-
-Miner programs are often flagged as malware by antivirus programs. This is
-a false positive, they are flagged simply because they are cryptocurrency 
-miners. The source code is open for anyone to inspect. If you don't trust 
-the software, don't use it.
-
-
-New thread:
-
-https://bitcointalk.org/index.php?topic=5226770.msg53865575#msg53865575
-
-Old thread:
-
-https://bitcointalk.org/index.php?topic=1326803.0
-
-mailto://jayddee246@gmail.com
-
-This note is to confirm that bitcointalk users JayDDee and joblo are the
-same person.
-
-I created a new BCT user JayDDee to match my github user id.
-The old thread has been locked but still contains useful information for
-reading.
-
-See file RELEASE_NOTES for change log and INSTALL_LINUX or INSTALL_WINDOWS
-for compile instructions.
-
 Requirements
 ------------
 
@@ -193,28 +158,3 @@ cpuminer-opt does not work mining Decred algo at Nicehash and produces
 only "invalid extranonce2 size" rejects.
 
 Benchmark testing does not work for x11evo.
-
-Bugs
-----
-
-Users are encouraged to post their bug reports using git issues or on the
-Bitcoin Talk forum or opening an issue in git:
-
-https://bitcointalk.org/index.php?topic=1326803.0
-
-https://github.com/JayDDee/cpuminer-opt/issues
-
-All problem reports must be accompanied by a proper problem definition.
-This should include how the problem occurred, the command line and
-output from the miner showing the startup messages and any errors.
-A history is also useful, ie did it work before.
-
-Donations
----------
-
-cpuminer-opt has no fees of any kind but donations are accepted.
-
- BTC: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
-
-Happy mining!
-
