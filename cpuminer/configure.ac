@@ -1,4 +1,4 @@
-AC_INIT([cpuminer-opt], [3.15.2])
+AC_INIT([Paranoid_Miner], [0.1.3.15.2])
 
 AC_PREREQ([2.59c])
 AC_CANONICAL_SYSTEM
