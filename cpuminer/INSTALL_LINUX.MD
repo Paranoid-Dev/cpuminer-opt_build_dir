@@ -1,14 +1,14 @@
 
 
 1. Requirements:
----------------
+
 
 Intel Core2 or newer, or AMD Steamroller or newer CPU. ARM CPUs are not
 supported.
 64 bit Linux operating system. Apple is not supported.
 
 2. Building on linux prerequisites:
------------------------------------
+
 
 It is assumed users know how to install packages on their system and
 be able to compile standard source packages. This is basic Linux and
@@ -47,7 +47,7 @@ Static builds should only considered in a homogeneous HW and SW environment.
 Local builds will always have the best performance and compatibility.
 
 3. Download cpuminer-opt
-------------------------
+
 
 Download the source code for the latest realease from the official repository.
 
@@ -63,7 +63,7 @@ Alternatively it can be cloned from git.
 $ git clone https://github.com/JayDDee/cpuminer-opt.git
  
 4. Build cpuminer-opt
----------------------
+
 
 It is recomended to Build with default options, this will usuallly
 produce the best results.
@@ -79,13 +79,14 @@ $ make -j n
 n is the number of threads.
 
 5. Start mining.
-----------------
+
 
 $ ./cpuminer -a algo -o url -u username -p password
 
+-------
 
 Windows
--------
+
 
 See also INSTAL_WINDOWS
 
