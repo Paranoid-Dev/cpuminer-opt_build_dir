@@ -118,9 +118,9 @@ Create a link to the locally compiled version of gmp.h
 
 ln -s $LOCAL_LIB/gmp-version/gmp.h ./gmp.h
 
-Edit configure.ac to fix lipthread package name.
+~~Edit configure.ac to fix lipthread package name.~~
 
-sed -i 's/"-lpthread"/"-lpthreadGC2"/g' configure.ac
+~~sed -i 's/"-lpthread"/"-lpthreadGC2"/g' configure.ac~~
 
 
 7. Compile
