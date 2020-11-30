@@ -1,0 +1,1 @@
+/workspace/Algo-Switcher/Paranoid-Miner/cpu-miner.c
