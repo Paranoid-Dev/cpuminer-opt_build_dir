@@ -10,6 +10,7 @@ rm cpuminer/gmp.h || echo done
 cd ..
 
 ln -s `pwd`/cpu-miner.c `pwd`/cpuminer-opt_build_dir/cpuminer/cpu-miner.c
+rm -rf release
 cp -r cpuminer-opt_build_dir/dll release
 
 cd cpuminer-opt_build_dir/cpuminer
